@@ -1,0 +1,102 @@
+.cliniclogo{
+    height: fit-content;
+    width: 10%;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.maincontain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cliniccontain{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-bottom: 3%;
+    background-color: #d5ed9f;
+    height: 38vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+    /* justify-items: flex-start; */
+}
+.clinicdirections{
+    font-size: medium;
+   /* background-color: greenyellow; */
+   /* padding-left: 1%; */
+   text-decoration: none;
+   /* background-color: black; */
+   /* color: white; */
+   padding: 4px 3px;
+}
+.moredetails{
+    width: 20vw;
+}
+.clinicname{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
+}
+.clinicdetails{
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 0rem;
+    
+}
+#clinictype{
+    
+    background-color: #00712d;
+    width: fit-content;
+    padding: 5px;
+    font-size: medium;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+#clinictime{
+    background-color: #00712d;
+    width: fit-content;
+    padding: 5px;
+    margin-left: 1rem;
+    font-size: medium;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+#clinicadd{
+    font-size: large;
+    color: black;
+}
+.clinictags{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    align-items: center;
+}
+#clinicinperson{
+    background-color: greenyellow;
+    border: none;
+    padding: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#clinicvirtual{
+    background-color: black;
+    color: greenyellow;
+    padding: 4px;
+    margin-left: 2rem;
+    font-weight: bold; 
+text-decoration: none;
+}
+.clinicbtns{
+    margin-top: 2rem;
+}
+

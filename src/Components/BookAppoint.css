@@ -1,0 +1,107 @@
+.docard{
+    
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    /* margin-right: auto; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+}
+#line{
+    color: black;
+    height: 1px;
+    background-color: black;
+    width: 60vw;
+    margin-top: 2%;
+    /* margin-bottom: 2%; */
+}
+.doctags{
+    margin-right: 2%;
+    
+}
+
+#doctag1{
+    background-image: linear-gradient(to right, rgb(135, 236, 101), #17844aae);
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+
+}
+#timingstab{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+}
+#bookhead{
+    background-image: linear-gradient(to right, rgb(50, 241, 255),rgb(52, 143, 255), #0f0094d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    margin-top: 1%;
+}
+#detailstab{
+    width: 15vw;
+}
+.tagcontain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.detailscontain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.cardcontain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5ed9f;
+    height: 70vh;
+    width: 60vw;
+    margin-top: 3%;
+    border-radius: 15px;
+    
+}
+.clinicinfo{
+    color: black;
+    margin-left: 5%;
+}
+#doctimg {
+    margin-left: 3%;
+    /* margin-top: 3%; */
+    width: 30%;
+}
+.compage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#doctexp{
+    font-size: large;
+    margin-top: 1%;
+}
+#doctdetails{
+    /* margin-top: 3%; */
+    margin-left: 8%;
+    margin-top: 3%;
+}
+#doctname{
+    font-size: xx-large;
+    font-weight: bold;
+    /* margin-bottom: 2%; */
+    text-decoration: none;
+    color: rgb(0, 127, 0);
+}
+.doctskills{
+    margin-top: 2%;
+    font-size: large;
+}
+#verify{
+    padding-left: 10px;
+    font-size: large;
+    /* margin-top: 1%; */
+}

@@ -1,0 +1,71 @@
+.main-container {
+  
+    display: flex;
+    flex-direction: column;
+    height: 50vh; /* Adjust height as needed */
+    width: 35vw;
+  }
+  .times{
+    font-size: medium;
+  }
+  #heroline{
+    font-size: medium;
+  }
+  .services-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .secheader {
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    width: 50vw;
+    background-color: #00712d;
+    font-weight: 500;
+    color: yellow;
+    border-radius: 10px;
+    font-size: large;
+  }
+  .overviewdetails{
+    display: flex;
+    flex-direction: row;
+    color: black;
+  }
+  .servicesover{
+    margin-left: 15%;
+  }
+  .carouselpics{
+    margin: 13%;
+  }
+  .section-header {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+  }
+  #carousel-contain{
+    height: 50vh;
+    width: 50vw;
+  }
+  .section-header.active {
+    border-bottom: 2px solid blue;
+  }
+  .secontent{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 50vw;
+    color: black;
+  }
+  .content-section {
+    /* flex: 1; */
+    /* padding: 20px; */
+    margin-top: 2%;
+  }
+  .outercontain{
+    display: flex;
+    flex-direction: row;
+  }
+  #service{
+    margin-left: 10%;
+  }
