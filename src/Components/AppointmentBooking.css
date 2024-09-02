@@ -48,7 +48,7 @@
 }
 
 .heads{
-    color: orange;
+    color: white;
     font-weight: 600;
     margin-top: 2%;
     margin-bottom: 1%;
@@ -58,8 +58,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2%;
-    margin-bottom: 3%;
+    margin-top: 0.5%;
+    margin-bottom: 5%;
 }
 .slots{
     display: flex;

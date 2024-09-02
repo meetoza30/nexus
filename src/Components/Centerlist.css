@@ -1,8 +1,31 @@
-.cards{
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+}
+
+.input {
+    width: 100vw;
+    padding: 10px 10px 10px 40px; /* Adjust padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust based on the input padding */
+    transform: translateY(-50%);
+    fill: #888;
+}
+.cards{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    margin-bottom: 5%;
+    align-items: center;
+    margin-bottom: 15%;
 }

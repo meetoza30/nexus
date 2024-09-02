@@ -44,7 +44,7 @@ function ClinicDetails() {
                     <p id="clinictime"><span>Closes at: </span>{time}</p>
                 </div>
                 <p id="clinicadd">{centeradd}</p>
-                <a href={address} className="clinicdirections" target="_blank">Get directions (Click here)</a>
+                <a href={address} className="clinicdirections" target="_blank">Get directions</a>
                 
             </div>
         </div>

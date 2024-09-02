@@ -1,5 +1,5 @@
 import React from 'react'
-import nexuslogo from '../assets/nexusfinal-removebg-preview.png'
+import nexuslogo from '../assets/nexuslogo2.png'
 import './Header.css'
 
 function Header(){

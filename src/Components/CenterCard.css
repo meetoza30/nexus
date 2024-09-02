@@ -1,19 +1,20 @@
 .logo{
     height: fit-content;
-    width: 10%;
+    width: 13%;
     /* border: 2px solid black; */
     border-radius: 5px;
     margin-top: 2%;
-    margin-left: 2%;
+    margin-left: 2%
 }
 .contain{
     margin-top: 5%;
     margin-left: 5%;
-    background-color: #d5ed9f;
-    height: 30vh;
-    width: 50vw;
+    background-color: #F3FF90;
+    height: 55vh;
+    width: 75vw;
     display: flex;
     flex-direction: row;
+    align-items: center;
     border-radius: 15px;
     box-shadow: 8px 8px 15px black;
     
@@ -22,22 +23,23 @@
 .name{
     text-decoration: none;
     color: black;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: bold;
     
 }
 .details{
     width: 100%;
     margin-left: 5%;
-    margin-top: 2%;
+    margin-top: 5%;
     color: black;
+    margin-bottom: 5%;
     
 }
 #type{
-    
     background-color: #00712d;
     width: fit-content;
     padding: 5px;
+    font-size: large;
     color: white;
     font-weight: 500;
     border-radius: 5px;
@@ -46,6 +48,7 @@
     background-color: #00712d;
     width: fit-content;
     padding: 5px;
+    font-size: large;
     margin-left:1%;
     color: white;
     font-weight: 500;
@@ -54,6 +57,9 @@
 #add{
     font-size: smaller;
     font-weight: 500;
+    font-size: large;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 .tags{
     display: flex;
@@ -64,13 +70,19 @@
     
 }
 #inperson{
-    background-color: #B79FED;
+    background-color: #00712d;
     border: none;
-    color: black;
+    color: white;
     padding: 6px;
+    margin-top: -2%;
     font-weight: bold;
     border-radius: 5px;
     text-decoration: none;
+    font-size: large;
+}
+#inperson:hover{
+    background-color: greenyellow;
+    color: black;
 }
 #virtual{
     background-color: black;
@@ -81,6 +93,6 @@
 text-decoration: none;
 }
 .btns{
-    margin-top: 7%;
+    margin-top: 5%;
 }
 

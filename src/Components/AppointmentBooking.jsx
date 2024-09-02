@@ -17,9 +17,9 @@ const AppointmentBooking = () => {
 
 
   const availableSlots = {
-    "2024-08-24": ["09:45 AM", "10:15 AM", "10:30 AM", "10:45 AM", "11:00 AM", "11:15 AM"],
-    "2024-08-25": ["12:00 PM", "12:45 PM", "01:00 PM", "01:15 PM"],
-    "2024-08-26": ["09:45 AM", "10:15 AM", "10:30 AM", "10:45 AM"],
+    "2024-09-24": ["09:45 AM", "10:15 AM", "10:30 AM", "10:45 AM", "11:00 AM", "11:15 AM"],
+    "2024-09-25": ["12:00 PM", "12:45 PM", "01:00 PM", "01:15 PM"],
+    "2024-09-26": ["09:45 AM", "10:15 AM", "10:30 AM", "10:45 AM"],
   };
 
   const handleBooking = () => {
@@ -44,7 +44,7 @@ const AppointmentBooking = () => {
         />
       )}
       <div className="bookingbtn">
-        <Link to={`/appointment_no/${randomnum}`}>
+        <Link>
         <button 
           onClick={handleBooking} 
           disabled={!selectedDate || !selectedSlot}

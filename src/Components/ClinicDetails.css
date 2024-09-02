@@ -15,8 +15,8 @@
     margin-top: 5rem;
     margin-left: 2rem;
     margin-bottom: 3%;
-    background-color: #d5ed9f;
-    height: 38vh;
+    background-color: #F3FF90;
+    height: 45vh;
     width: 70vw;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,15 @@
    text-decoration: none;
    /* background-color: black; */
    /* color: white; */
-   padding: 4px 3px;
+   padding: 5px 10px;
+   
+   background-color: green;
+   color: white;
+   font-weight: bold;
+   border-radius: 10px;
+   margin-top: 15px;
+   border: 2px solid black;
+
 }
 .moredetails{
     width: 20vw;
@@ -53,33 +61,36 @@
 }
 #clinictype{
     
-    background-color: #00712d;
+    background-color: #028602;
     width: fit-content;
-    padding: 5px;
+    padding: 5px 10px;
     font-size: medium;
     color: white;
-    font-weight: 500;
+    font-weight: bold;
     border-radius: 5px;
 }
 #clinictime{
-    background-color: #00712d;
+    background-color: #028602;
     width: fit-content;
-    padding: 5px;
+    padding: 5px 10px;
     margin-left: 1rem;
     font-size: medium;
     color: white;
-    font-weight: 500;
+    font-weight: bold;
     border-radius: 5px;
 }
 #clinicadd{
     font-size: large;
     color: black;
+    margin-bottom: 3.5%;
 }
 .clinictags{
     display: flex;
     flex-direction: row;
     font-size: medium;
     align-items: center;
+    margin-top: 3.5%;
+    margin-bottom: 1%;
 }
 #clinicinperson{
     background-color: greenyellow;
