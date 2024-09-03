@@ -16,7 +16,8 @@ function Header(){
             <a href="#" className="headitems">About Us</a>
             <a href="#" className="headitems">Services</a>
             <a href="#" className="headitems">Contact Us</a>
-            <Link to="/profile" className="headitems">Profile</Link>
+            <a href="#" className="headitems">Profile</a>
+            <div id="google_translate_element"></div>
         </nav>
     </header>
         </>

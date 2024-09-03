@@ -41,7 +41,17 @@ body {
     align-items: center;
     margin-right: 10px;
 }
-
+#google_translate_element {
+    margin-left: 30px; /* Adjust as needed */
+    display: inline-block; /* To align it with other items */
+  }
+  
+.goog-te-gadget-simple {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+  }
 .nav-menu {
     display: flex;
     flex-direction: row;
@@ -49,6 +59,7 @@ body {
     justify-content: center;
     justify-items: center;
     margin-right: 15%;
+    margin-top: auto;
     
 }
 .headitems{
