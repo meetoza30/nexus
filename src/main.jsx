@@ -7,13 +7,15 @@ import Centerslist from './Components/Centerslist.jsx'
 import BookAppoint from './Components/BookAppoint.jsx'
 import Baemaxreport from './Components/Baemaxreport.jsx'
 
+
 const router = createHashRouter([
   {
     path: '/',
     element: <App/>,
-    children:[{
+    children:[
+    {
       path: '/',
-      element: <Centerslist/>
+      element: <Centerslist />
     },
       {
         path: '/clinics/:id',

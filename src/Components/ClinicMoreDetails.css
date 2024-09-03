@@ -7,8 +7,8 @@
 }
 
 .section-header.active {
-    background-color: greenyellow; /* Darker green when active */
-    color: black; /* White text when active */
+    background-color: greenyellow; 
+    color: black;
     border-bottom: 2px solid yellow;
     border-radius: 10px;
 }
@@ -17,19 +17,21 @@
     margin-top: 2%;
     margin-left: 5%;
     width: 50vw;
+    /* height: 50vh; */
     color: black;
     padding: 10px;
     transition: background-color 0.3s ease;
 }
 
 .overview-content {
-    background-color: #9C90FF;
+    background-color: #bbb4ff;
     border-radius: 15px;
 }
 
 .doctors-content {
-    background-color: #9C90FF;
+    background-color: #bbb4ff;
     border-radius: 15px;
+    height: 125vh;
 }
 
 .hvr-float {
@@ -49,14 +51,16 @@
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
-
+.doclists{
+  
+}
 .services-content {
-    background-color: #9C90FF;
+    background-color: #bbb4ff;
     border-radius: 15px;
 }
 
 .photos-content {
-    background-color: #9C90FF;
+    background-color: #bbb4ff;
     border-radius: 15px;
 }
 
@@ -129,6 +133,8 @@
 .outercontain{
   display: flex;
   flex-direction: row;
+  height: fit-content;
+  padding: 20px 20px;
 }
 #service{
   margin-left: 10%;

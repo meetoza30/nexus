@@ -75,7 +75,7 @@ function ClinicMoreDetails() {
                     </div>
                 )}
                 {selectedSection === 'Doctors' && currentClinic?.docs && currentClinic && (
-                    <div>
+                    <div className='doclists'>
                         {/* <h2>Doctors</h2> */}
                         {Object.keys(currentClinic.docs).map((docId) => (
                             <Docard key={docId} docid={docId} />

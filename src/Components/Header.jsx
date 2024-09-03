@@ -1,6 +1,7 @@
 import React from 'react'
 import nexuslogo from '../assets/nexuslogo2.png'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 function Header(){
 
@@ -11,8 +12,11 @@ function Header(){
             <img src={nexuslogo} className="logo-icon"/>
         </div>
         <nav className="nav-menu">
-            <a href="#" className="headitems">Services and Treatment</a>
-            <a href="#" className="headitems">Plan Your Visit</a>
+            <a href="#" className="headitems">Home</a>
+            <a href="#" className="headitems">About Us</a>
+            <a href="#" className="headitems">Services</a>
+            <a href="#" className="headitems">Contact Us</a>
+            <Link to="/profile" className="headitems">Profile</Link>
         </nav>
     </header>
         </>
